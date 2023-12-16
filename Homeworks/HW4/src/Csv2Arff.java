@@ -47,7 +47,7 @@ public class Csv2Arff {
 	
 		String[] rowData = new String[strLine.length];
 		
-		for (int col=0; col < strLine.length; col++) {
+		for (int col1=0; col1 < strLine.length; col++) {
 	rowData[col] = strLine[col];
 		}
 	data.add(rowData);
